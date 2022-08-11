@@ -1,0 +1,19 @@
+Installation Instructions：
+1. Install miniconda3  https://docs.conda.io/en/latest/miniconda.html (We use python 3.8 in our project)
+2. Open miniconda3 and type the following: conda create –n py38 python=3.8 (When Proceed([y]/n) shows up, type y and enter to install packages)
+3. Once packages are installed, typed the following to active conda : ####conda activate py38. Your enviroment now should change from (base) to (py38)
+4. Enter following command to install Pytorch : #### pip install PyQt5 torch torchvision
+5. Enter following command to install PIL ：#### pip install Pillow
+6. Enter following command to install OpenCV ： #### pip install opencv-python
+7. Enter following command to install Numpy : #### pip install numpy
+
+Required packages and version:
+
+Packages             Version
+PyQt5                    5.15.2
+Torch                    1.11.0
+Torchvision            0.12.0     
+Numpy                  1.22.3
+OpenCV                 4.5.5.64
+Pillow                     9.1.0       
+Python                   3.8
